@@ -1,1 +1,63 @@
 
+# ==========================================
+# SQL Data Warehouse Project - .gitignore
+# ==========================================
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# SQL Server and database files
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+*.sqlplan
+
+# Temporary and generated files
+*.tmp
+*.temp
+*.log
+*.cache
+*.old
+*.orig
+*.rej
+
+# Python cache and virtual environments (if used for tests)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+service_account*.json
+
+# Local exports and generated reports
+*.xlsx
+*.xls
+*.parquet
+*.zip
+
+# OS/editor backup files
+*.bak~
+
